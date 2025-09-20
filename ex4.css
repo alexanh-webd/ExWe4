@@ -48,6 +48,7 @@ body {
     .show-info {
         padding: 10px;
     }
+    
 }
 
 @media(max-width: 800px) {
@@ -57,6 +58,9 @@ body {
     .show-info p {
         text-align: center;
         padding: 10px;
+    }
+    .card {
+        align-items: center;
     }
 }
 
