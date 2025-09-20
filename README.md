@@ -51,7 +51,5 @@ The p element inside show-info should have its text centered and a padding of 10
 4. Web fonts
 Add the font “Roboto” to your webpage. https://fonts.google.com/selection?selection.family=Roboto. Press the "Get embedded code" to get the import URLs. Make sure to add the CSS rule provided in the website as well.
 
-(Note. You have to import the font via HTML. Otherwise CodeGrade doesn't recognize it.)
-
 5. Bootstrap
 Add Bootstrap front-end framework to your website: https://getbootstrap.com/docs/5.2/getting-started/download/#cdn-via-jsdelivr use the hosted version. Add a Bootstrap navbar to your app and move the search form inside of it.
