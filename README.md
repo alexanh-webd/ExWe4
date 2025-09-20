@@ -3,13 +3,13 @@ Create a form with a text input field with an id of "input-show" and a button wi
 Using the form, fetch data from https://api.tvmaze.com/search/shows?q= where the value of the input field is set to the query parameter q (for example, when searching for "friends" the url would look like https://api.tvmaze.com/search/shows?q=friends). The API returns an array of shows that match the search parameter.
 From the data, create show-data elements and add them to the child of the "show-container" div. An example of a show-data element is shown below. The container must not contain any previous search results.
 
-<div class="show-data"> 
-    <img src="[show image medium]"> 
-    <div class="show-info"> 
-        <h1>[Show title]</h1> 
-        <p>[Show summary]</p> 
-    </div> 
-</div> 
+"<div class="show-data"> "
+    "<img src="[show image medium]"> "
+    "<div class="show-info">"
+        "<h1>[Show title]</h1>" 
+        "<p>[Show summary]</p>"
+    "</div>"
+"</div>" 
 Generate the template in JavaScript, one for each show. Don't copy-paste it into the HTML.
 
 (Note that the API gives the summary already wrapped in <p> tags) 
